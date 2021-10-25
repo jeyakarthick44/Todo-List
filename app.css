@@ -126,3 +126,15 @@ option{
     width: 20px;
     font-size: 22px;
 }
+
+.completed{
+    text-decoration:line-through;
+    opacity: 0.5;
+}
+
+.fall{
+    transform:rotateZ(50deg) rotateX(100deg);
+    opacity:0.6;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
